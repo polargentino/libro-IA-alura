@@ -1,0 +1,32 @@
+# Archivo .gitignore para proyectos de Python
+
+# ----------------- Entornos Virtuales ------------------
+# Ignorar las carpetas de entornos virtuales más comunes
+.venv/
+venv/
+env/
+
+# Ignorar las versiones de Python configuradas por pyenv
+.python-version
+
+# ----------------- Datos y Logs ------------------------
+# Ignorar logs de depuración y testing
+*.log
+*.sqlite
+/log/
+/data/
+
+# ----------------- Archivos de Python ------------------
+# Ignorar bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar archivos de instalación y empaquetamiento
+dist/
+build/
+*.egg-info/
+
+# ----------------- Jupyter / Notebooks -----------------
+# Ignorar puntos de control de notebooks de Jupyter
+.ipynb_checkpoints/
