@@ -9,6 +9,10 @@ env/
 # Ignorar las versiones de Python configuradas por pyenv
 .python-version
 
+# ----------------- ARCHIVOS DE CONFIGURACIÓN Y SECRETO ------------------
+# IGNORAR ARCHIVOS DE ENTORNO VIRTUAL (.env) para evitar subir claves API
+.env
+
 # ----------------- Datos y Logs ------------------------
 # Ignorar logs de depuración y testing
 *.log
